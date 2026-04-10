@@ -1,9 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 import MyRoutes from './routers/routes'
+import { Footer } from './components/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -12,6 +11,7 @@ function App() {
       <h1 className='titulo'>🎬PELICULAS IAN</h1>
     </header>
       <MyRoutes/>
+      <Footer/>
   </div> 
   )
 }
