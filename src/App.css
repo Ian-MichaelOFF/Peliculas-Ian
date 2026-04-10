@@ -1,8 +1,18 @@
-.titulo{
+.titulo {
   margin-top: 20px;
   text-align: center;
   font-size: 3rem;
-  color:blueviolet;
+  color: blueviolet;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px blueviolet, 0 0 10px blueviolet;
+  }
+  to {
+    text-shadow: 0 0 20px violet, 0 0 30px purple;
+  }
 }
 .footer {
   display: flex;

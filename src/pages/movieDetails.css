@@ -14,8 +14,11 @@
     object-fit: cover;
 }
 
-.titulo{
+.movieTitle{
     margin-top: 0;
+    text-align: center;
+    font-size: 3rem;
+    color:blueviolet;
 }
 .movieDetails{
     font-size: 1.5rem;
